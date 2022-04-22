@@ -1,4 +1,4 @@
-Web site was built using HTML, CSS, JavaScript
+Responsive Multipage Education Website using HTML, CSS and JavaScript
 
 Features:
 
