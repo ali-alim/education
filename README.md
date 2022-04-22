@@ -1,3 +1,5 @@
+Web site was built using HTML, CSS, JavaScript
+
 CSS Variables
 CSS Grid & Flexbox
 BEM (Block Element Modifier)
