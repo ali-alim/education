@@ -136,7 +136,7 @@ nav button{
 }
 
 .nav__menu a{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     transition: (--transition);
 }
 
@@ -183,6 +183,10 @@ header{
     gap: 4rem;
 }
 
+.categories__left{
+    margin-right: 4rem;
+}
+
 .categories__left p{
     margin: 1rem 0 0.3rem;
 }
@@ -195,4 +199,15 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:1.2rem;
+}
+
+.category{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.category:hover{
+    box-shadow: 0 0 3rem rgba(255,255,255,0.3);
 }
