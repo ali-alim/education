@@ -82,14 +82,14 @@ img{
     background: var(--color-white);
     color: var(--color-black);
     padding: 1rem 2rem;
-    /* border: 1px solid transparent; */
+    border: 1px solid transparent;
     font-weight: 500;
     transition: var(--transition);
 }
 
 .btn:hover{
     color: var(--color-white);
-    /* background: transparent; */
+    background: transparent;
     border-color: var(--color-white);
 }
 
@@ -119,7 +119,7 @@ nav{
 
 /* change navbar styles when scrolling */
 .window-scroll{
-    background: var(--color-primary);
+    background: var(--color-bg1);
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
 }
 
@@ -236,3 +236,33 @@ header{
 
 /* ===================== WEB PROJECTS ===================== */
 
+.projects{
+    margin-top: 10rem;
+}
+
+.projects__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+}
+
+.project{
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.project:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.project__info{
+    padding: 2rem;
+}
+
+.project__info p{
+    margin: 1.2rem 0 2rem;
+    font-size:0.9rem;
+}
