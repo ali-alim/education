@@ -57,13 +57,13 @@ h1,h2,h3,h4,h5{
 h1{
     font-size: 2.4rem;
 }
-h1{
+h2{
     font-size: 2.0rem;
 }
-h1{
+h3{
     font-size: 1.6rem;
 }
-h1{
+h4{
     font-size: 1.3rem;
 }
 
@@ -78,7 +78,7 @@ img{
 }
 
 .btn{
-    /* display: inline-block; */
+    display: inline-block;
     background: var(--color-white);
     color: var(--color-black);
     padding: 1rem 2rem;
@@ -142,4 +142,57 @@ nav button{
 
 .nav__menu a:hover{
     color: var(--color-bg2);
+}
+
+/* ===================== HEADER ===================== */
+
+header{
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5rem;
+}
+
+.header__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header__left p{
+    margin: 1rem 0 2.4rem;
+}
+
+/* ===================== CATEGORIES ===================== */
+
+.categories{
+    background: var(--color-bg1);
+}
+
+.categories h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.categories__container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+}
+
+.categories__left p{
+    margin: 1rem 0 0.3rem;
+}
+
+.category__icon img{
+    width: 50px;
+}
+
+.categories__right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1.2rem;
 }
