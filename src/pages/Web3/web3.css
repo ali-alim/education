@@ -1,0 +1,45 @@
+.projects {
+  margin-top: 10rem;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project {
+  background: var(--color-bg1);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  border-radius: 15px
+}
+
+.project:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+.project__info {
+  padding: 2rem;
+}
+
+.project__info p {
+  margin: 1.2rem 0 2rem;
+  font-size: 0.9rem;
+}
+
+.projects h2{
+    text-align: center;
+}
+
+.project__image{
+ padding: 5px;
+}
+
+.project__image img{
+    object-fit: cover;
+    width: 100%;
+    
+}

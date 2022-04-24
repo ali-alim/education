@@ -1,7 +1,7 @@
 import Categories from "./components/Categories/Categories";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Web3 from "./pages/Web3";
+import Web3 from "./pages/Web3/Web3";
 import Home from "./pages/Home"
 import Comments from "./pages/Comments"
 
