@@ -73,3 +73,24 @@ h4 {
 a {
   color: var(--color-white);
 }
+
+.btn {
+  display: inline-block;
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  color: var(--color-white);
+  background: transparent;
+  border-color: var(--color-white);
+}
+
+.btn-primary {
+  background: var(--color-danger);
+  color: var(--color-white);
+}

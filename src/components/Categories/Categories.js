@@ -1,30 +1,37 @@
-import "./categories.scss";
+import "./categories.css";
+import Category from "./Category/Category";
+import {Outlet, Link} from "react-router-dom"
+import web3 from "./../../images/web3_icon.png"
+
+const category_info = [
+  {name:"web3",img: web3, header: "WEB 3.0 Projects", paragraph: "SOLIDITY, REACT"},
+  {name:"react", img: web3, header: "REACT JS Projects", paragraph: "JSX, REACT"},
+]
+
+
+
 
 export default function Categories() {
   return (
     <div>
-      <section class="categories">
-        <div class="container categories__container">
-          <div class="categories__left">
+      <section className="categories">
+        <div className="container categories__container">
+          <div className="categories__left">
             <h1>Categories</h1>
             <p>Here you will find categories of projects</p>
-            <a href="#" class="btn">
+            <a href="#" className="btn">
               Learn More
             </a>
           </div>
-          <div class="categories__right">
-            <a href="./projects/web3.html">
-              <article class="category">
-                <span class="category__icon">
-                  <img src="" alt="blockchain_icon" />
-                </span>
-                <h5>WEB 3.0 Projects</h5>
-                <p>Technologies used: SOLIDITY & REACT.js</p>
-              </article>
-            </a>
+          <div className="categories__right">
+            {category_info.map ((info) => (
+              <Category name={info.name} img={info.img} header={info.header} paragraph={info.paragraph} />
+            ))
+            }
           </div>
         </div>
       </section>
+      <Outlet />
     </div>
   );
 }
