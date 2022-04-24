@@ -80,6 +80,7 @@ img {
   object-fit: cover;
 }
 
+
 .btn {
   display: inline-block;
   background: var(--color-white);
@@ -314,3 +315,4 @@ header {
 .faq.open p{
     display: block;
 }
+
