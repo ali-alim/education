@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Web3 from "./pages/Web3/Web3";
 import Home from "./pages/Home"
 import Comments from "./pages/Comments"
+import ReactJS from "./pages/ReactJS/ReactJS"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/comments" element={<Comments />} />
           <Route path="/web3" element={<Web3 />} />
+          <Route path="/react" element={<ReactJS />} />
         {/* </Route> */}
       </Routes>
       </div>
