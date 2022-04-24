@@ -22,11 +22,11 @@
 }
 
 .project__info {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .project__info p {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 1rem;
   font-size: 0.9rem;
 }
 
@@ -39,7 +39,11 @@
 }
 
 .project__image img{
+    filter: saturate(0);
     object-fit: cover;
     width: 100%;
-    
+    border-radius: 15px;
+}
+.project__image img:hover{
+    filter: saturate(1);
 }
