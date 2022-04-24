@@ -11,16 +11,16 @@ export default function Navbar() {
 
           <ul class="nav__menu">
             <li>
-              <a href="index.html">Home</a>
+              <a href="">Home</a>
             </li>
             <li>
-              <a href="projects.html">Projects</a>
+              <a href="">Projects</a>
             </li>
             <li>
-              <a href="developers.html">Developers</a>
+              <a href="">Tutorials</a>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="">Comments</a>
             </li>
           </ul>
         </div>
