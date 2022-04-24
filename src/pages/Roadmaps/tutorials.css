@@ -11,7 +11,7 @@
   }
 
   .tutorial {
-    background: var(--color-bg2);
+    background: var(--color-bg);
     padding: 1rem;
     border-radius: 2rem;
     transition: var(--transition);
@@ -33,7 +33,10 @@
 
   .tutorial h5 {
     margin-left: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--color-success);
   }
   
   .tutorial p {

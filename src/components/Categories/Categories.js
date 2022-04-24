@@ -2,10 +2,13 @@ import "./categories.css";
 import Category from "./Category/Category";
 import {Outlet, Link} from "react-router-dom"
 import web3 from "./../../images/web3_icon.png"
+import react from "./../../images/react_logo.jpg"
+import react_node from "./../../images/react_node.png"
 
 const category_info = [
   {name:"web3",img: web3, header: "WEB 3.0 Projects", paragraph: "SOLIDITY, REACT"},
-  {name:"react", img: web3, header: "REACT JS Projects", paragraph: "JSX, REACT"},
+  {name:"react", img: react, header: "REACT.JS Projects", paragraph: "JSX, REACT"},
+  {name:"react_node", img: react_node, header: "REACT.JS & NODE.JS", paragraph: "REACT & NODE, useContext"},
 ]
 
 

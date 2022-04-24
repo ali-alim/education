@@ -6,6 +6,12 @@ import Home from "./pages/Home"
 import Comments from "./pages/Comments"
 import ReactJS from "./pages/ReactJS/ReactJS"
 
+window.addEventListener("scroll", () => {
+  document
+    .querySelector("nav")
+    .classList.toggle("window-scroll", window.scrollY > 0);
+});
+
 function App() {
   return (
     <BrowserRouter>

@@ -9,18 +9,6 @@ img {
 
 
 
-
-/* ===================== NAVBAR ===================== */
-
-
-
-/* change navbar styles when scrolling */
-.window-scroll {
-  background: var(--color-bg1);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-
 /* ===================== HEADER ===================== */
 
 header {

@@ -10,7 +10,6 @@ export default function Tutorial({img,link, header, paragraph}) {
             </span>
             <h5>{header}</h5>
             </div>
-            <div className="tutorial__bottom"></div>
             <p>{paragraph}</p>
           </div>
         </a>
