@@ -1,0 +1,40 @@
+  
+  .tutorials__container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+  }
+  
+  
+  .tutorial__icon img {
+    width: 50px;
+  }
+
+  .tutorial {
+    background: var(--color-bg2);
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+  }
+
+  .tutorial__top{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+
+  
+  .tutorial:hover {
+    box-shadow: 0 0 3rem rgba(255, 255, 255, 0.3);
+    z-index: 1;
+  }
+
+  .tutorial h5 {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  .tutorial p {
+    font-size: 1rem;
+  } 
