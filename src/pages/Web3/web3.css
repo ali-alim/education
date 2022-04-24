@@ -9,11 +9,12 @@
 }
 
 .project {
+  margin-top: 3rem;
   background: var(--color-bg1);
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
-  border-radius: 15px
+  border-radius: 15px;
 }
 
 .project:hover {
@@ -30,20 +31,20 @@
   font-size: 0.9rem;
 }
 
-.projects h2{
-    text-align: center;
+.projects h2 {
+  text-align: center;
 }
 
-.project__image{
- padding: 5px;
+.project__image {
+  padding: 5px;
 }
 
-.project__image img{
-    filter: saturate(0);
-    object-fit: cover;
-    width: 100%;
-    border-radius: 15px;
+.project__image img {
+  filter: saturate(0);
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
 }
-.project__image img:hover{
-    filter: saturate(1);
+.project__image img:hover {
+  filter: saturate(1);
 }
