@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar";
 import "./web3.css";
-import Web3 from "./../../components/Projects/Web3/Web3";
+import Web3 from "../../components/Projects/Web3";
 import jsmastery from "./../../images/jsmastery_web3.png";
 
 const web3_info = [

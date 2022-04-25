@@ -5,6 +5,7 @@ import Web3 from "./pages/Web3/Web3";
 import Home from "./pages/Home"
 import Comments from "./pages/Comments"
 import ReactJS from "./pages/ReactJS/ReactJS"
+import ReactNext from "./pages/ReactNext/ReactNext"
 
 window.addEventListener("scroll", () => {
   document
@@ -22,6 +23,7 @@ function App() {
           <Route path="/comments" element={<Comments />} />
           <Route path="/web3" element={<Web3 />} />
           <Route path="/react" element={<ReactJS />} />
+          <Route path="/react_next" element={<ReactNext />} />
         {/* </Route> */}
       </Routes>
       </div>

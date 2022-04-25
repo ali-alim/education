@@ -1,0 +1,50 @@
+.projects {
+  margin-top: 10rem;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project {
+  margin-top: 3rem;
+  background: var(--color-bg1);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  border-radius: 15px;
+}
+
+.project:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+.project__info {
+  padding: 1rem;
+}
+
+.project__info p {
+  margin: 1.2rem 0 1rem;
+  font-size: 0.9rem;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.project__image {
+  padding: 5px;
+}
+
+.project__image img {
+  filter: saturate(0);
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+}
+.project__image img:hover {
+  filter: saturate(1);
+}

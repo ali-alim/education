@@ -1,11 +1,10 @@
-import React from "react";
 
-export default function Web3({ link, img, header, paragraph }) {
+export default function ReactNext({ link, img, header, paragraph }) {
   return (
     <>
       <div className="project">
         <div className="project__image">
-          <img src={img} alt="web3.0" />
+          <img src={img} alt="react" />
         </div>
         <div className="project__info">
           <h4>{header}</h4>
