@@ -1,22 +1,16 @@
 import Navbar from "../../components/Navbar/Navbar";
-import "./reactjs.css";
-import ReactJS from "../../components/Projects/ReactJS";
-import react_redux_toolkit from "./../../images/react_redux_toolkit.png";
-import tesla from "./../../images/tesla.png";
+import "./reactnode.css";
+import ReactNode from "../../components/Projects/ReactNode";
+import monday_crm from "./../../images/monday_crm.png";
 
-const react_info = [
+const react_node_info = [
   {
-    img: react_redux_toolkit,
-    header: "React Cryptocurrency App",
-    paragraph: "REACT, REDUX TOOLKIT, RAPID API",
-    link: "https://www.youtube.com/watch?v=9DDX3US3kss&t=15s",
+    img: monday_crm,
+    header: "Monday CRM App",
+    paragraph: "ReactJS, NodeJS, CRUD requests, useContext",
+    link: "https://www.youtube.com/watch?v=DDh2GoiCrCk&list=PLRD1Niz0lz1sGLnQri-PlLARJRpGBL55m&index=5",
   },
-  {
-    img: tesla,
-    header: "Tesla React.JS Website ",
-    paragraph: "REACT, REDUX TOOLKIT, React-Router, Firebase",
-    link: "https://www.youtube.com/watch?v=JnaTQudNDqg",
-  },
+
 ];
 
 export default function reactJS() {
@@ -24,10 +18,10 @@ export default function reactJS() {
     <>
       <Navbar />
       <div className="projects">
-        <h2>React Projects</h2>
+        <h2>React & Node Projects</h2>
         <div className="container projects__container">
-          {react_info.map((info) => (
-            <ReactJS
+          {react_node_info.map((info) => (
+            <ReactNode
               img={info.img}
               header={info.header}
               paragraph={info.paragraph}
