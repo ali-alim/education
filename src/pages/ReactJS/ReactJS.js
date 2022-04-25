@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./reactjs.css";
 import ReactJS from "../../components/Projects/ReactJS/ReactJS";
 import react_redux_toolkit from "./../../images/react_redux_toolkit.png";
+import tesla from "./../../images/tesla.png";
 
 const react_info = [
   {
@@ -9,6 +10,12 @@ const react_info = [
     header: "React Cryptocurrency App",
     paragraph: "REACT, REDUX TOOLKIT, RAPID API",
     link: "https://www.youtube.com/watch?v=9DDX3US3kss&t=15s",
+  },
+  {
+    img: tesla,
+    header: "Tesla React.JS Website ",
+    paragraph: "REACT, REDUX TOOLKIT, React-Router, Firebase",
+    link: "https://www.youtube.com/watch?v=JnaTQudNDqg",
   },
 ];
 

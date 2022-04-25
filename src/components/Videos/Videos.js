@@ -1,12 +1,18 @@
 import "./videos.css"
 import Video from "./Video";
 import keyframe_css from "./../../images/keyframe_css.png"
+import useEffect from "./../../images/useEffect.png"
 
 const videos_info = [
   {
     title: 'CSS Keyframes Animation Tutorial',
     link: 'https://www.youtube.com/watch?v=K-x_U4jRIO0',
     img: keyframe_css
+  },
+  {
+    title: 'Learn useEffect Hook',
+    link: 'https://www.youtube.com/watch?v=UVhIMwHDS7k',
+    img: useEffect
   }
 ]
 
