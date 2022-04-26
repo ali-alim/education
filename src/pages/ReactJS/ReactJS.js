@@ -3,6 +3,7 @@ import "./reactjs.css";
 import ReactJS from "../../components/Projects/ReactJS";
 import react_redux_toolkit from "./../../images/react_redux_toolkit.png";
 import tesla from "./../../images/tesla.png";
+import organic from "./../../images/organic.png";
 
 const react_info = [
   {
@@ -16,6 +17,12 @@ const react_info = [
     header: "Tesla React.JS Website ",
     paragraph: "REACT, REDUX TOOLKIT, React-Router, Firebase",
     link: "https://www.youtube.com/watch?v=JnaTQudNDqg",
+  },
+  {
+    img: organic,
+    header: "Responsive Grocery Store Website ",
+    paragraph: "HTML, CSS, JavaScript",
+    link: "https://www.youtube.com/watch?v=lCCN_lkl3Xw&list=WL&index=89",
   },
 ];
 

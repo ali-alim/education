@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./reactnode.css";
 import ReactNode from "../../components/Projects/ReactNode";
 import monday_crm from "./../../images/monday_crm.png";
+import tinder_clone from "./../../images/tinder_clone.png";
 
 const react_node_info = [
   {
@@ -10,6 +11,13 @@ const react_node_info = [
     paragraph: "ReactJS, NodeJS, CRUD requests, useContext",
     link: "https://www.youtube.com/watch?v=DDh2GoiCrCk&list=PLRD1Niz0lz1sGLnQri-PlLARJRpGBL55m&index=5",
   },
+  {
+    img: tinder_clone,
+    header: "Monday CRM App",
+    paragraph: "ReactJS, NodeJS, MongdoDB, Authentication, Cookies, Chat",
+    link: "https://www.youtube.com/watch?v=Q70IMS-Qnjk&list=PLRD1Niz0lz1sGLnQri-PlLARJRpGBL55m&index=7",
+  },
+
 
 ];
 

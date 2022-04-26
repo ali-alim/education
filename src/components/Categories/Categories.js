@@ -9,8 +9,8 @@ import react_next_logo from "./../../images/react_next_logo.png"
 const category_info = [
   {name:"web3",img: web3, header: "WEB 3.0 Projects", paragraph: "SOLIDITY, REACT"},
   {name:"react", img: react, header: "REACT.JS Projects", paragraph: "JSX, REACT"},
-  {name:"react_node", img: react_node, header: "REACT.JS & NODE.JS", paragraph: "REACT & NODE, useContext"},
-  {name:"react_next", img: react_next_logo, header: "REACT.JS & NEXT.JS", paragraph: "REACT & NEXT, Tailwing CSS, Firebase v9, NextAuth, Recoil"},
+  {name:"react_node", img: react_node, header: "REACT.JS & NODE.JS", paragraph: "REACT & NODE, MONGO DB, useContext"},
+  {name:"react_next", img: react_next_logo, header: "REACT.JS & NEXT.JS", paragraph: "REACT & NEXT, Tailwing CSS, Firebase v9, NextAuth, Recoil, GraphCMS, GraphQL"},
 ]
 
 

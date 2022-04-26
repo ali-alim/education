@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./web3.css";
 import Web3 from "../../components/Projects/Web3";
 import jsmastery from "./../../images/jsmastery_web3.png";
+import web3_fb from "./../../images/web3_fb.png";
 
 const web3_info = [
   {
@@ -9,6 +10,12 @@ const web3_info = [
     header: "Modern Web 3.0 Blockchain App",
     paragraph: "SOLIDITY, SMART CONTRACTS, CRYPTO",
     link: "https://www.youtube.com/watch?v=Wn_Kb3MR_cU",
+  },
+  {
+    img: web3_fb,
+    header: "Facebook 3.0 on Blockchain ",
+    paragraph: "SOLANA, Next.JS, NETLIFY, SANITY",
+    link: "https://www.youtube.com/watch?v=ctKzbQ_fJc8",
   },
 ];
 

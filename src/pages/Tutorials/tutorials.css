@@ -1,4 +1,7 @@
   
+  .tutorials{
+margin-top: 5rem;
+  }
   .tutorials__container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -34,6 +37,10 @@
   .tutorial h5 {
     margin-left: 1rem;
     font-size: 1rem;
+  }
+  
+  .tutorial h2 {
+    margin-top: 4rem;
   }
   
   .tutorial p {
