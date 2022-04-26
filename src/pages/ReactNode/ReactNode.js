@@ -13,7 +13,7 @@ const react_node_info = [
   },
   {
     img: tinder_clone,
-    header: "Monday CRM App",
+    header: "Tinder Clone App",
     paragraph: "ReactJS, NodeJS, MongdoDB, Authentication, Cookies, Chat",
     link: "https://www.youtube.com/watch?v=Q70IMS-Qnjk&list=PLRD1Niz0lz1sGLnQri-PlLARJRpGBL55m&index=7",
   },
